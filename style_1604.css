@@ -16,19 +16,23 @@ body{
     flex-direction: row;
     list-style: none;
     background-color: #1dce4f;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 #navbar li a, #left-nav li a {
+    padding: 15px 108.5px;
     font-size: x-large;
     display:flex;
     text-decoration: none;
     color: white;
-    padding: 15px 100px;
+    justify-content: center;
 }
 
 #navbar li a:hover {
-    color: black;
+    color: black !important;
+}
+
+#navbar li a:hover{
     background-color:#89e4a2;
 }
 .active{
